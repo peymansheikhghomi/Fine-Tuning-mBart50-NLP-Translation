@@ -15,6 +15,18 @@ The project consists of two main functionalities:
      - **Subtitle Translation:** Users can upload English SRT subtitle files to receive translated Persian SRT subtitles.
      - **Sentence Translation:** Users can input arbitrary English sentences to compare translation results before and after fine-tuning.
 
+## Results
+
+### Before and After Fine-Tuning
+
+Here are a few examples of translations before and after the fine-tuning process:
+
+| English Sentence                        | Translation Before Fine-Tuning        | Translation After Fine-Tuning         |
+|-----------------------------------------|---------------------------------------|---------------------------------------|
+| "Hello you guys, what's up?" |"سلام بچه ها ، چیه ؟"|"سلام بچه ها، چه خبر؟"
+| "Toto, I've a feeling we're not in Kansas anymore." | "توتو، من احساسی دارم که دیگر در کانزاس نیستیم." | "توتو، حس می‌کنم که دیگر در کانزاس نیستیم." |
+|"m gonna make him an offer he can't refuse"|"من به او پیشنهادی می دهم که او نمی تواند رد کند"|"من به اون پیشنهادی میدم که اون نمیتونه رد کنه"|
+
 ## Requirements
 
 To run the notebooks, you will need the following dependencies:
